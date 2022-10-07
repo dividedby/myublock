@@ -14,8 +14,8 @@ reddit.com##.YfUlQeQY0xbmCv-So3isP
 reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR > ._1G4yU68P50vRZ4USXfaceV
 ! Home Icon
 ! reddit.com##header a[href="/"]
-! Advertise with us
-reddit.com##header .icon-campaign:upward(2)
+! Advertise
+reddit.com##header a:has-text(/Advertise/):upward(1)
 ! Reddit Live
 reddit.com##header .icon-video_live:upward(1)
 ! r/all
