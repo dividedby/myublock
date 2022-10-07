@@ -1,3 +1,5 @@
+! Title: divided_by's Rules
+
 ! https://www.reddit.com
 reddit.com##.scrollerItem:has-text(/Top broadcast/)
 reddit.com##.scrollerItem:has-text(/Top livestream/)
