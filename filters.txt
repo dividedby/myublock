@@ -1,4 +1,4 @@
-! Title: divided_by's Rules
+! Title: divided_by's Filters
 
 ! https://www.reddit.com
 reddit.com##.scrollerItem:has-text(/Top broadcast/)
