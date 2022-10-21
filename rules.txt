@@ -1,0 +1,41 @@
+Divided By's Dynamic Rules
+
+! Default rules
+no-csp-reports: * true
+no-large-media: behind-the-scene false
+* * 3p-frame block
+behind-the-scene * * noop
+behind-the-scene * 1p-script noop
+behind-the-scene * 3p noop
+behind-the-scene * 3p-frame noop
+behind-the-scene * 3p-script noop
+behind-the-scene * image noop
+behind-the-scene * inline-script noop
+
+! Block Facebook globally
+* facebook.com * block
+* facebook.net * block
+* fbcdn.net * block
+
+! Allow Facebook on Facebook
+facebook.com facebook.com * noop
+facebook.com facebook.net * noop
+facebook.com fbcdn.net * noop
+instagram.com fbcdn.net * noop
+
+! Allow captchas
+* recaptcha.net * noop
+* captcha.com * noop
+* https://www.google.com/recaptcha/ * noop
+* https://www.gstatic.com/recaptcha/ * noop
+
+! Allow Gmail attachments
+mail.google.com googleusercontent.com * noop
+
+! Allow Tweets on Reddit
+reddit.com reddit.map.fastly.net * noop
+reddit.com redditmedia.com * noop
+reddit.com redditstatic.com * noop
+reddit.com twimg.com * noop
+reddit.com twitter.com * noop
+reddit.com twitter.map.fastly.net * noop
