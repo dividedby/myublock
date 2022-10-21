@@ -45,5 +45,9 @@ youtube.com##ytd-search ytd-video-renderer:has(span.ytd-thumbnail-overlay-time-s
 youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
 youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"]:upward(ytd-item-section-renderer)
 
-! 2022-09-30 https://www.target.com
+! 2022-09-30 Block Items Not Sold by Target
 ! target.com##.knggan.styles__StyledDetailsWrapper-sc-1iglypx-1 > div > .h-text-grayDark.h-text-sm:upward(div.dNNWBw.styles__StyledCol-sc-fw90uk-0)
+
+! 2022-10-14 Block Amazon Live Shopping
+amazon.*###live-flagship-root
+||live-video.net^
