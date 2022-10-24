@@ -50,5 +50,5 @@ app.youneedabudget.com mparticle.com * noop
 app.youneedabudget.com mx.com * noop
 
 ! Allow Chase secure logins
-secure07a.chase.com secure07a.chase.com * noop
-secure07a.chase.com gslbjpmchase.com * noop
+chase.com chase.com * noop
+chase.com gslbjpmchase.com * noop
