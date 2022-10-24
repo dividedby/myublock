@@ -39,3 +39,12 @@ reddit.com redditstatic.com * noop
 reddit.com twimg.com * noop
 reddit.com twitter.com * noop
 reddit.com twitter.map.fastly.net * noop
+
+! Enable import on YNAB
+app.youneedabudget.com moneydesktop.com * noop
+app.youneedabudget.com mparticle.com * noop
+app.youneedabudget.com mx.com * noop
+
+! Allow Chase secure logins
+secure07a.chase.com secure07a.chase.com * noop
+secure07a.chase.com gslbjpmchase.com * noop
