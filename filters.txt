@@ -24,6 +24,8 @@ reddit.com##header .icon-all:upward(1)
 reddit.com##header .icon-popular:upward(1)
 ! Shop Avatars button
 reddit.com##header button:has-text(/Shop Avatars/):upward(1)
+! Reddit Premium
+reddit.com##div._2vEf-C2keJaBMY9qk_BxVn:nth-of-type(2)
 
 
 ! https://www.etsy.com
