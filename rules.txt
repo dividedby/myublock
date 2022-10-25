@@ -52,3 +52,9 @@ app.youneedabudget.com mx.com * noop
 ! Allow Chase secure logins
 chase.com chase.com * noop
 chase.com gslbjpmchase.com * noop
+
+! Allow Harris Index
+harrisfootball.com b-msedge.net * noop
+harrisfootball.com l-msedge.net * noop
+harrisfootball.com live.com * noop
+harrisfootball.com microsoft.com * noop
