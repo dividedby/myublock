@@ -30,7 +30,7 @@ instagram.com fbcdn.net * noop
 * https://www.gstatic.com/recaptcha/ * noop
 
 ! Allow Gmail attachments
-mail.google.com googleusercontent.com * noop
+google.com googleusercontent.com * noop
 
 ! Allow YouTube on Reddit
 reddit.com google.com * noop
@@ -54,9 +54,14 @@ app.youneedabudget.com mx.com * noop
 ! Allow Chase secure logins
 chase.com chase.com * noop
 chase.com gslbjpmchase.com * noop
+chase.com akamaiedge.net * noop
 
 ! Allow Harris Index
 harrisfootball.com b-msedge.net * noop
 harrisfootball.com l-msedge.net * noop
 harrisfootball.com live.com * noop
 harrisfootball.com microsoft.com * noop
+
+! Allow YouTube on YouTube
+youtube.com google.com * noop
+youtube.com youtube.com * noop
