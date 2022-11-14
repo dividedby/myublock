@@ -1,42 +1,44 @@
 ! Title: divided_by's Filters
 
-! https://www.reddit.com
-reddit.com##.scrollerItem:has-text(/Top broadcast/)
-reddit.com##.scrollerItem:has-text(/Top livestream/)
-reddit.com##.scrollerItem:has-text(/RPAN/)
-reddit.com##a._3dZnYgFFpifT-M_Vs2FAq6:nth-of-type(3)
-reddit.com##._1tvThPWQpORoc2taKebHxs._1BFbVxT49QnrAN3fqGZ1z8:has-text(/Trending/)
-reddit.com##._3HwENDlXUGoAOP6zptLsmD
-reddit.com##._3VqiDbufgl9_EiV_tk9L6u
-reddit.com##._2HIXc0CnGxfzNp0KsgwpF-._38x4rPvvkwQ6NMJG2ex7X
-reddit.com##._3rsj8PUqTkCf6pe9416Gyy._3ecQI6Cj7AUan8ODNedckX
-reddit.com##.YfUlQeQY0xbmCv-So3isP
-reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR > ._1G4yU68P50vRZ4USXfaceV
-! Home Icon
-! reddit.com##header a[href="/"]
-! Advertise
-reddit.com##header a:has-text(/Advertise/):upward(1)
-! Reddit Live
-reddit.com##header .icon-video_live:upward(1)
-! r/all
-reddit.com##header .icon-all:upward(1)
-! r/popular
-reddit.com##header .icon-popular:upward(1)
-! Shop Avatars button
-reddit.com##header button:has-text(/Shop Avatars/):upward(1)
-! Reddit Premium
+! Reddit Filters
+!! Block Premium Ad
 reddit.com##div._2vEf-C2keJaBMY9qk_BxVn:nth-of-type(2)
-! Reddit Coins
+!! Advertise
+reddit.com##header a:has-text(/Advertise/):upward(1)
+!! Block Coins button
 reddit.com##.icon-coins:upward(3)
+!! Block Top Communities
+reddit.com##h2 > a[href="/subreddits/leaderboard/"]:upward(4)
+reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR > ._1G4yU68P50vRZ4USXfaceV
+! reddit.com##.scrollerItem:has-text(/Top broadcast/)
+! reddit.com##.scrollerItem:has-text(/Top livestream/)
+! reddit.com##.scrollerItem:has-text(/RPAN/)
+! reddit.com##a._3dZnYgFFpifT-M_Vs2FAq6:nth-of-type(3)
+! reddit.com##._1tvThPWQpORoc2taKebHxs._1BFbVxT49QnrAN3fqGZ1z8:has-text(/Trending/)
+! reddit.com##._3HwENDlXUGoAOP6zptLsmD
+! reddit.com##._3VqiDbufgl9_EiV_tk9L6u
+! reddit.com##._2HIXc0CnGxfzNp0KsgwpF-._38x4rPvvkwQ6NMJG2ex7X
+! reddit.com##._3rsj8PUqTkCf6pe9416Gyy._3ecQI6Cj7AUan8ODNedckX
+! reddit.com##.YfUlQeQY0xbmCv-So3isP
+! reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR > ._1G4yU68P50vRZ4USXfaceV
+!! Home Icon
+! reddit.com##header a[href="/"]
+!! Reddit Live
+! reddit.com##header .icon-video_live:upward(1)
+!! r/all
+! reddit.com##header .icon-all:upward(1)
+!! r/popular
+! reddit.com##header .icon-popular:upward(1)
+!! Block Shop Avatars button
+! reddit.com##header button:has-text(/Shop Avatars/):upward(1)
 
-
-! https://www.etsy.com
+! Etsy Filters
 etsy.com##.v2-listing-card__info > div > div > .wt-text-caption.wt-text-truncate.wt-text-gray:has-text(/A[^d]*?d[^b]*?b[^y]*?y/):upward(.listing-link)
 
-! YT Search - just videos + channels
+! YouTube Filters 
+!! Search - just videos + channels
 youtube.com##ytd-search ytd-item-section-renderer>#contents>:not(ytd-video-renderer,ytd-channel-renderer),ytd-secondary-search-container-renderer
-
-! YT Shorts
+!! Block Shorts
 youtube.com##ytd-guide-renderer a.yt-simple-endpoint[title="Shorts"]:upward(ytd-guide-entry-renderer)
 youtube.com##ytd-mini-guide-renderer a.yt-simple-endpoint[title="Shorts"]:upward(ytd-mini-guide-entry-renderer)
 youtube.com##ytd-browse #dismissible ytd-rich-grid-slim-media[is-short]:upward(ytd-rich-section-renderer)
@@ -50,9 +52,11 @@ youtube.com##ytd-search ytd-video-renderer:has(span.ytd-thumbnail-overlay-time-s
 youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
 youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"]:upward(ytd-item-section-renderer)
 
-! 2022-09-30 Block Items Not Sold by Target
+! Target Filters
+!! Block Items Not Sold by Target
 ! target.com##.knggan.styles__StyledDetailsWrapper-sc-1iglypx-1 > div > .h-text-grayDark.h-text-sm:upward(div.dNNWBw.styles__StyledCol-sc-fw90uk-0)
 
-! 2022-10-14 Block Amazon Live Shopping
+! Amazon Filters 
+!! Block Amazon Live Shopping
 ! amazon.*###live-flagship-root
 ||live-video.net^
