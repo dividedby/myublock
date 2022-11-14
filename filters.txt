@@ -26,6 +26,8 @@ reddit.com##header .icon-popular:upward(1)
 reddit.com##header button:has-text(/Shop Avatars/):upward(1)
 ! Reddit Premium
 reddit.com##div._2vEf-C2keJaBMY9qk_BxVn:nth-of-type(2)
+! Reddit Coins
+reddit.com##.icon-coins:upward(3)
 
 
 ! https://www.etsy.com
@@ -52,5 +54,5 @@ youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer span.yt
 ! target.com##.knggan.styles__StyledDetailsWrapper-sc-1iglypx-1 > div > .h-text-grayDark.h-text-sm:upward(div.dNNWBw.styles__StyledCol-sc-fw90uk-0)
 
 ! 2022-10-14 Block Amazon Live Shopping
-amazon.*###live-flagship-root
+! amazon.*###live-flagship-root
 ||live-video.net^
