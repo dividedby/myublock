@@ -36,15 +36,8 @@ google.com googleusercontent.com * noop
 reddit.com google.com * noop
 reddit.com youtube.com * noop
 
-! Allow Tweets on Reddit
-reddit.com edgecastcdn.net * noop
-reddit.com google.com * noop
-reddit.com reddit.map.fastly.net * noop
-reddit.com redditmedia.com * noop
-reddit.com redditstatic.com * noop
-reddit.com twimg.com * noop
-reddit.com twitter.com * noop
-reddit.com twitter.map.fastly.net * noop
+! Block empty Tweets on Reddit
+reddit.com##.STit0dLageRsa2yR4te_b
 
 ! Enable import on YNAB
 app.youneedabudget.com moneydesktop.com * noop
