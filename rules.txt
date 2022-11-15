@@ -36,9 +36,6 @@ google.com googleusercontent.com * noop
 reddit.com google.com * noop
 reddit.com youtube.com * noop
 
-! Block empty Tweets on Reddit
-reddit.com##.STit0dLageRsa2yR4te_b
-
 ! Enable import on YNAB
 app.youneedabudget.com moneydesktop.com * noop
 app.youneedabudget.com mparticle.com * noop
