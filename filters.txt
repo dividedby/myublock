@@ -31,6 +31,8 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR > ._1G4yU68P50vRZ4U
 ! reddit.com##header .icon-popular:upward(1)
 !! Block Shop Avatars button
 ! reddit.com##header button:has-text(/Shop Avatars/):upward(1)
+!! Block Get updates popup
+reddit.com##div > button:has-text(/Get updates/):upward(3)
 
 ! Etsy Filters
 etsy.com##.v2-listing-card__info > div > div > .wt-text-caption.wt-text-truncate.wt-text-gray:has-text(/A[^d]*?d[^b]*?b[^y]*?y/):upward(.listing-link)
