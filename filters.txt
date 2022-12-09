@@ -64,3 +64,10 @@ youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer span.yt
 !! Block Amazon Live Shopping
 ! amazon.*###live-flagship-root
 ||live-video.net^
+
+! GMail Filters
+!! Block LiveIntent Ads in GMail
+mail.google.com##[href^="https://rd.goodreads.com/gp/r.html"]
+
+! Wayfair Filters
+wayfair.com##.MediaNativePlacement-wrapper-link
