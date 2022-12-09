@@ -45,6 +45,7 @@ app.youneedabudget.com mx.com * noop
 chase.com chase.com * noop
 chase.com gslbjpmchase.com * noop
 chase.com akamaiedge.net * noop
+chase.com agkn.com * noop
 
 ! Allow Harris Index
 harrisfootball.com b-msedge.net * noop
@@ -52,3 +53,6 @@ harrisfootball.com l-msedge.net * noop
 harrisfootball.com live.com * noop
 harrisfootball.com microsoft.com * noop
 harrisfootball.com l-dc-msedge.net * noop
+
+! Allow Wayfair Cloudflare
+wayfair.com wayfair.com.cdn.cloudflare.net * noop
