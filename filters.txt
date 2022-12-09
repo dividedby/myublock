@@ -30,11 +30,13 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR > ._1G4yU68P50vRZ4U
 !! r/popular
 ! reddit.com##header .icon-popular:upward(1)
 !! Block Shop Avatars button
-! reddit.com##header button:has-text(/Shop Avatars/):upward(1)
+reddit.com##header button:has-text(/Shop Avatars/):upward(1)
 !! Block Get updates popup
 reddit.com##div > button:has-text(/Get updates/):upward(3)
-!! Block empty Tweets on Reddit
+!! Block empty Tweets
 reddit.com##.STit0dLageRsa2yR4te_b
+!! Block Updates From Reddit
+reddit.com##.Ri-SfOqCu4V0RDdOCGIP5:upward(1)
 
 ! Etsy Filters
 etsy.com##.v2-listing-card__info > div > div > .wt-text-caption.wt-text-truncate.wt-text-gray:has-text(/A[^d]*?d[^b]*?b[^y]*?y/):upward(.listing-link)
