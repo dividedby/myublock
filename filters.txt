@@ -37,6 +37,8 @@ reddit.com##div > button:has-text(/Get updates/):upward(3)
 reddit.com##.STit0dLageRsa2yR4te_b
 !! Block Updates From Reddit
 reddit.com##.Ri-SfOqCu4V0RDdOCGIP5:upward(1)
+!! Block SuperBowl Ad
+reddit.com##._2BlCG_Fre5CwjrmCj-tn1q
 
 ! Etsy Filters
 etsy.com##.v2-listing-card__info > div > div > .wt-text-caption.wt-text-truncate.wt-text-gray:has-text(/A[^d]*?d[^b]*?b[^y]*?y/):upward(.listing-link)
