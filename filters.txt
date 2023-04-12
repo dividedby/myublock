@@ -75,3 +75,6 @@ mail.google.com##[href^="https://rd.goodreads.com/gp/r.html"]
 
 ! Wayfair Filters
 wayfair.com##.MediaNativePlacement-wrapper-link
+
+! Mintuit Filters
+intuit.com##.offerSection
