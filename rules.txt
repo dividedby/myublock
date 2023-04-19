@@ -32,6 +32,9 @@ instagram.com fbcdn.net * noop
 ! Allow Gmail attachments
 google.com googleusercontent.com * noop
 
+! Allow YouTube on Google
+google.com youtube.com * noop
+
 ! Allow YouTube on Reddit
 reddit.com google.com * noop
 reddit.com youtube.com * noop
