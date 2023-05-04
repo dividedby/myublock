@@ -2,7 +2,7 @@
 
 ! Reddit Filters
 !! Block Premium Ad
-##div._2vEf-C2keJaBMY9qk_BxVn:nth-of-type(1)
+reddit.com##div._2vEf-C2keJaBMY9qk_BxVn:nth-of-type(1)
 !! Advertise
 reddit.com##header a:has-text(/Advertise/):upward(1)
 !! Block Coins button
