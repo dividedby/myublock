@@ -34,6 +34,7 @@ google.com googleusercontent.com * noop
 
 ! Allow YouTube on Google
 google.com youtube.com * noop
+google.com youtube.googleapis.com * noop
 
 ! Allow YouTube on Reddit
 reddit.com google.com * noop
