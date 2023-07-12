@@ -78,3 +78,6 @@ wayfair.com##.MediaNativePlacement-wrapper-link
 
 ! Mintuit Filters
 intuit.com##.offerSection
+
+! Cloudlfare Filters
+@@||challenges.cloudflare.com^$script,3p
