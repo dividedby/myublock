@@ -26,19 +26,18 @@ instagram.com fbcdn.net * noop
 ! Allow captchas
 * recaptcha.net * noop
 * captcha.com * noop
+* hcaptcha.com * noop
 * https://www.google.com/recaptcha/ * noop
 * https://www.gstatic.com/recaptcha/ * noop
 
+! Allow Google
+reddit.com google.com * noop
+google.com google.com * noop
 ! Allow Gmail attachments
 google.com googleusercontent.com * noop
-
-! Allow YouTube on Google
-google.com youtube.com * noop
-google.com youtube.googleapis.com * noop
-
-! Allow YouTube on Reddit
-reddit.com google.com * noop
-reddit.com youtube.com * noop
+! Allow YouTube
+* youtube.com * noop
+* youtube.googleapis.com * noop
 
 ! Enable import on YNAB
 app.youneedabudget.com moneydesktop.com * noop
@@ -50,13 +49,6 @@ chase.com chase.com * noop
 chase.com gslbjpmchase.com * noop
 chase.com akamaiedge.net * noop
 chase.com agkn.com * noop
-
-! Allow Harris Index
-harrisfootball.com b-msedge.net * noop
-harrisfootball.com l-msedge.net * noop
-harrisfootball.com live.com * noop
-harrisfootball.com microsoft.com * noop
-harrisfootball.com l-dc-msedge.net * noop
 
 ! Allow Wayfair Cloudflare
 wayfair.com wayfair.com.cdn.cloudflare.net * noop
