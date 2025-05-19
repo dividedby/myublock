@@ -37,6 +37,8 @@ reddit.com##div > button:has-text(/Get updates/):upward(3)
 reddit.com##.Ri-SfOqCu4V0RDdOCGIP5:upward(1)
 !! Block SuperBowl Ad
 reddit.com##._2BlCG_Fre5CwjrmCj-tn1q
+!! No idea
+reddit.com#@#.STit0dLageRsa2yR4te_b
 
 ! Etsy Filters
 etsy.com##.v2-listing-card__info > div > div > .wt-text-caption.wt-text-truncate.wt-text-gray:has-text(/A[^d]*?d[^b]*?b[^y]*?y/):upward(.listing-link)
@@ -44,28 +46,34 @@ etsy.com##.v2-listing-card__info > div > div > .wt-text-caption.wt-text-truncate
 ! YouTube Filters 
 !! Search - just videos + channels
 youtube.com##ytd-search ytd-item-section-renderer>#contents>:not(ytd-video-renderer,ytd-channel-renderer),ytd-secondary-search-container-renderer
-! YT Homepage and Subscriptions - Hide the Shorts section
+!! YT Homepage and Subscriptions - Hide the Shorts section
 youtube.com##[is-shorts]
-! YT Menu - Hide the Shorts button
-www.youtube.com###guide [title="Shorts"], .ytd-mini-guide-entry-renderer[title="Shorts"]
-! YT Search - Hide Shorts
-www.youtube.com##ytd-search ytd-video-renderer:has([overlay-style="SHORTS"])
-! YT Search, Channels and Sidebar or below the player - Hide the Shorts sections
-www.youtube.com##ytd-reel-shelf-renderer
-! YT Channels - Hide the Shorts tab
-www.youtube.com##[tab-title="Shorts"]
-! YT Subscriptions - Hide Shorts - Grid View
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has([overlay-style="SHORTS"])
-! YT Subscriptions - Hide Shorts - List View
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer:has([overlay-style="SHORTS"])
-! YT Subscriptions - New Layout - Hide Shorts
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer:has([overlay-style="SHORTS"])
-! YT Sidebar - Hide Shorts
-www.youtube.com###related ytd-compact-video-renderer:has([overlay-style="SHORTS"])
+!! YT Menu - Hide the Shorts button
+youtube.com###guide [title="Shorts"], .ytd-mini-guide-entry-renderer[title="Shorts"]
+!! YT Search - Hide Shorts
+youtube.com##ytd-search ytd-video-renderer:has([overlay-style="SHORTS"])
+!! YT Search, Channels and Sidebar or below the player - Hide the Shorts sections
+youtube.com##ytd-reel-shelf-renderer
+!! YT Channels - Hide the Shorts tab
+youtube.com##[tab-title="Shorts"]
+!! YT Subscriptions - Hide Shorts - Grid View
+youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has([overlay-style="SHORTS"])
+!! YT Subscriptions - Hide Shorts - List View
+youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer:has([overlay-style="SHORTS"])
+!! YT Subscriptions - New Layout - Hide Shorts
+youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer:has([overlay-style="SHORTS"])
+!! YT Sidebar - Hide Shorts
+youtube.com###related ytd-compact-video-renderer:has([overlay-style="SHORTS"])
+!! Hide Members Only Videos
+youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has([aria-label="Members only"])
+youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has(.badge-style-type-members-only)
+youtube.com##:is(ytd-rich-item-renderer,ytd-compact-video-renderer,ytd-video-renderer,ytd-grid-video-renderer):has(.badge-style-type-members-only)
+
 
 ! Target Filters
 !! Block Items Not Sold by Target
 ! target.com##.knggan.styles__StyledDetailsWrapper-sc-1iglypx-1 > div > .h-text-grayDark.h-text-sm:upward(div.dNNWBw.styles__StyledCol-sc-fw90uk-0)
+target.com#@#+js(json-prune-fetch-response, data.search.products.[-].sponsored_ad.ad_source, , propsToMatch, url:/plp_search_v2?)
 
 ! Amazon Filters 
 !! Block Amazon Live Shopping
@@ -85,7 +93,6 @@ intuit.com##.offerSection
 ! Cloudlfare Filters
 @@||challenges.cloudflare.com^$script,3p
 
-! No YouTube click2load
-@@youtube-nocookie.com/embed^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
-@@youtube.com^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
-@@youtube.com^$frame,3p,from=~bing.com|~duckduckgo.com|~google.com|~video.search.yahoo.com
+! NY Times Filters
+@@||meter-svc.nytimes.com^$xhr,domain=nytimes.com
+nytimes.com##.d073a639.b9baaaf4
