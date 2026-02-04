@@ -27,8 +27,9 @@ instagram.com fbcdn.net * noop
 * recaptcha.net * noop
 * captcha.com * noop
 * hcaptcha.com * noop
-* https://www.google.com/recaptcha/ * noop
-* https://www.gstatic.com/recaptcha/ * noop
+* google.com/recaptcha/ * noop
+* gstatic.com/recaptcha/ * noop
+* challenges.cloudflare.com * noop
 
 ! Allow Google
 reddit.com google.com * noop
