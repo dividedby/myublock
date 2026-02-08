@@ -1,5 +1,5 @@
 ! Title: divided_by's Filters
-! Testing 1234
+! Testing 1
 
 ! Reddit Filters
 !! Block Premium Ad
